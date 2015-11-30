@@ -1,0 +1,42 @@
+<list>
+	<teleport_list id="1" name_en="Towns" name_ru="Города">
+		<point id="1" x="82698" y="148638" z="-3473" castle_id="3" name_en="Giran" name_ru="Гиран" />
+		<point id="2" x="147450" y="27064" z="-2208" castle_id="5" name_en="Aden" name_ru="Аден" />
+		<point id="3" x="147725" y="-56517" z="-2780" castle_id="7" name_en="Goddard" name_ru="Годдард" />
+		<point id="4" x="44070" y="-50243" z="-796" castle_id="8" name_en="Rune" name_ru="Рун" />
+		<point id="5" x="82321" y="55139" z="-1529" castle_id="4" name_en="Oren" name_ru="Орен" />
+		<point id="6" x="87358" y="-141982" z="-1341" castle_id="9" name_en="Schuttgart" name_ru="Штутгарт" />
+		<point id="7" x="111115" y="219017" z="-3547" castle_id="6" name_en="Heine" name_ru="Хейн" />
+		<point id="8" x="18748" y="145437" z="-3132" castle_id="2" name_en="Dion" name_ru="Дион" />
+		<point id="9" x="-14225" y="123540" z="-3121" castle_id="1" name_en="Gludio" name_ru="Глудио" />
+		<point id="10" x="-83063" y="150791" z="-3133" name_en="Gludin" name_ru="Глудин" />
+		<point id="11" x="17144" y="170156" z="-3502" name_en="Floran" name_ru="Флоран" />
+		<point id="12" x="116589" y="76268" z="-2734" name_en="Hunter Village" name_ru="Деревня охотников" />
+	</teleport_list>
+
+	<teleport_list id="2" name_en="Start Villages" name_ru="Стартовые деревни">
+		<point id="1" x="12428" y="16551" z="-4588" name_en="Dark Elf Village" name_ru="Деревня Темный Эльфов"/>
+		<point id="2" x="116551" y="-182493" z="-1525" name_en="Dwarf Village" name_ru="Деревня Гномов"/>
+		<point id="3" x="45873" y="49288" z="-3064" name_en="Elf Village" name_ru="Деревня Эльфов"/>
+		<point id="4" x="-116934" y="46616" z="368" name_en="Kamael Village" name_ru="Деревня Камаэлев"/>
+		<point id="5" x="-44133" y="-113911" z="-244" name_en="Orc Village" name_ru="Деревня Орков"/>
+		<point id="6" x="-82687" y="243157" z="-3734" name_en="Talking Island" name_ru="Говорящий остров"/>
+	</teleport_list>
+	
+	<teleport_list id="3" name_en="Arenas" name_ru="Арены">
+		<point id="1" x="73890" y="142656" z="-3778" name_en="Giran Arena" name_ru="Арена Гирана"/>
+		<point id="2" x="-86979" y="142402" z="-3643" name_en="Gludin Arena" name_ru="Арена Глудина"/>
+		<point id="3" x="147451" y="46728" z="-3410" name_en="Coliseum Arena" name_ru="Колизей"/>
+		<point id="4" x="-81896" y="-49589" z="-10352" name_en="Underground Coliseum" name_ru="Подземный Колизей"/>
+		<point id="5" x="12312" y="182752" z="-3558" name_en="Monster Race Track" name_ru="Гонки Монстров"/>
+		<point id="6" x="-59193" y="-56893" z="-2039" name_en="Fantasy Island" name_ru="Остров Грез"/>
+	</teleport_list>	
+
+	<teleport_list id="4" name_en="Farm zone" name_ru="Фазм зоны">
+		<point id="1" x="298" y="235111" z="-3273" name_en="Farm for beginners" name_ru="Фарм для новичков"/>
+		<point id="2" x="144232" y="142888" z="-11912" name_en="Farm for experienced" name_ru="Фарм для опытных"/>
+		<point id="3" x="-180008" y="186104" z="-10606" name_en="Farm for proffi" name_ru="Фарм для бывалых"/>
+		<point id="4" x="89992" y="-86552" z="-2759" name_en="Bayou Fort" name_ru="Нублесс РБ"/>
+	</teleport_list>		
+	
+</list>

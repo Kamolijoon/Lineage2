@@ -1,0 +1,38 @@
+<html><title>HGM - (controller chat)</title><body>
+<br>
+<font color="LEVEL">Main rules:</font><br>
+<table width=240>
+<tr><td> * Bante player just because.</td></tr>
+<tr><td> * Razbanivayte only if there is a reason.</td></tr>
+<tr><td> * If you are banned for no reason, you will be removed from chgm.</td></tr>
+<tr><td> * If you unban for no reason, you will be removed from chgm.</td></tr>
+<tr><td> * Removal chgm will be in the presence of evidence for a ban without reason.</td></tr>
+<tr><td> * logging operations are being ban.</td></tr></table>
+<br>
+<br>
+<font color="LEVEL">Functions hgm to ban:</font>
+<table width=240>
+<tr><td>Name:</td><td><edit var="name_on" width=95></td></tr>
+<tr><td>Time:</td><td><combobox width=95 var="time_on" list="10;20;30;60;120"></td></tr>
+<tr><td>Reason:</td><td><combobox width=95 var="reason_on" list="bh;mat;flood;flame;slander;insult"></td></tr>
+</table>
+<table>
+<tr>
+<td><button value="Ban chat"  action="bypass -h user_chatbanon $name_on $time_on $reason_on" width=150 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td></td>
+</tr>
+</table>
+<br>
+<font color="LEVEL">Functions hgm to unban:</font>
+<table width=240>
+<tr><td>Name:</td><td><edit var="name_of" width=95></td></tr>
+<tr><td>Reason:</td><td><combobox width=95 var="reason_of" list="forgiven;appeal"></td></tr>
+</table>
+<table>
+<tr>
+<td><button value="Unban chat" action="bypass -h user_chatbanof $name_of $reason_of" width=150 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td></td>
+</tr>
+</table>
+<br>
+</body></html>
